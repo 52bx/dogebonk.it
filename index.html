@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <title>DogeBonk.it</title>
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Bonk it!">
+  <meta name="description" content="Doge, bonk it!">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="https://dogebonk.it">
-  <meta name="twitter:title" content="Doge Bonk">
-  <meta name="twitter:description" content="Bonk it!">
+  <meta name="twitter:title" content="DogeBonk">
+  <meta name="twitter:description" content="Doge, bonk it!">
   <meta name="twitter:creator" content="Externalizable">
-  <meta property="og:title" content="Doge Bonk">
+  <meta property="og:title" content="DogeBonk">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dogebonk.it">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
   <link href="./style/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./js/lowLag.js"></script>
@@ -25,79 +25,62 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PV8SG9MKQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
+  
     gtag('config', 'G-3PV8SG9MKQ');
   </script>
 </head>
 
 <body>
   <header class="p-4">
-    <H1 class="text-xl font-bold">DOGE, BONK IT</H1>
-    <h2 class="text-lg">Tap to bonk SHIB</h2>
+    <H1 class="text-xl font-bold text-center" style="font-family: 'Brush Script MT', cursive;">DOGEBONK.IT</H1>
   </header>
-  <div id="bonk" class="select-none">
-    <div style="position: relative;">
+  <div id="bonk">
+    <div class="select-none" style="position: relative;">
       <img id="cheems" src="./images/cheems-min.png" style="position: relative;" />
       <img id="bat" src="./images/bat.png" style="position: absolute; top: 76%; left: 70%;" />
-      <img id="shib" src="./images/shib.png"
-        style="position: absolute; bottom: -30%; left: 120%; z-index: -1; width: 50%;" />
+      <img id="shib" src="./images/shib.png" style="position: absolute; bottom: -30%; left: 120%; z-index: -1; width: 50%;" />
       <div id="bonks" />
     </div>
   </div>
   <div style="padding: 1rem; margin-top: 20%; width: 100vw;">
     <div>
       <div class="text-xl font-bold"><a class="link"
-          href="//pancakeswap.finance/swap?outputCurrency=0xae2df9f730c54400934c06a17462c41c08a06ed8">Buy $DOBO @
-          PancakeSwap</a></div>
-      <div>More info @ <a class="link" href="//dogebonk.com">DogeBonk.com</a> (<a class="link"
-          href="//www.dextools.io/app/bsc/pair-explorer/0xbe80839a3be4d3953d5588a60a11aeaed286b593">DexTools</a>)</div>
-    </div>
-    <div>
-      <details>
-        <summary style="padding-top: 1rem">How do I buy?</summary>
-
-        <quote>
-          <pre>
-          1. Download Trust Wallet and set everything up
-          2. From the TrustWallet app click on DApps
-          3. Either type in, "PancakeSwap" in the search bar or scroll down to the popular section and click on
-          PancakeSwap
-          4. Once on PancakeSwap click, "Connect Wallet", and then click on Trust Wallet when it asks which wallet you'd
-          like to connect. Your wallet should now be connected and you can use your BNB in your Trust Wallet to trade
-          for DOBO on PancakeSwap
-          5. Either buy BNB on Trust Wallet with a credit card or buy it on another exchange like Crypto.com and send it
-          to your Trust Wallet.
-          6. Once the BNB is in your Trust Wallet make sure its BNB Smart Chain. If its regular BNB then click on DEX
-          within Trust Wallet to swap your regular BNB for BNB Smart Chain. The symbol for regular BNB is gold and white
-          while the symbol for BNB Smart Chain is gold and black. If you open up PancakeSwap while only holding regular
-          BNB you will not be able to use it to buy DOBO.
-          7. Once you have your BNB Smart Chain open up PancakeSwap
-          8. Have the "From" section be set to BNB. In the, "To" section click on, "Select a currency" and in the search
-          bar put in this contract number: 0xae2df9f730c54400934c06a17462c41c08a06ed8
-          9. Once you've put it in click the button that looks like a gear in the top right corner. Go down to slippage
-          tolerance and type, "11"
-          10. Exit out of the settings and enter the amount of BNB you want to swap for DOBO. You can only buy
-          5,000,000,000,000 DOBO per transaction. If you try to buy more at once it wont work
-          11. Click on, "Swap" and then click, "Confirm Swap" and then click, "Approve". If this doesn't work or you get
-          an error try rounding the amount of BNB you wanted to trade for DOBO to a whole number. For example, if you
-          tried to trade 11.45653 BNB for DOBO and got an error, then change the amount of BNB to 11. If this still
-          doesn't work then try increasing the slippage by 1% until it works.
-        </pre>
-        </quote>
-      </details>
-    </div>
-    <div style="padding-top: 1rem">
-      <div>© 2021 <a class="link" href="//bonkchain.com">Bonkchain.com</a></div>
-      <div>Fan site by <a class="link"
-          href="//bscscan.com/address/0x9Fb614CA6c2C5a21cD9D9d924bdae447507E1dAC">0x9Fb614CA6c2C5a21cD9D9d924bdae447507E1dAC</a>
+        href="//pancakeswap.finance/swap?outputCurrency=0xae2df9f730c54400934c06a17462c41c08a06ed8">Buy $DOBO @
+        PancakeSwap</a></div>
+      <div>More info @ <a class="link" href="//dogebonk.com">DogeBonk.com</a></div>
+      <div style="max-width: 50vw">
+        <div>
+          <details>
+            <summary style="padding-top: 1rem">How do I buy?</summary>
+    
+            <quote>
+  <p>1. Download Trust Wallet and set everything up</p>
+  <p>2. From the TrustWallet app click on DApps</p>
+  <p>3. Either type in, "PancakeSwap" in the search bar or scroll down to the popular section and click on PancakeSwap</p>
+  <p>4. Once on PancakeSwap click, "Connect Wallet", and then click on Trust Wallet when it asks which wallet you'd like to connect. Your wallet should now be connected and you can use your BNB in your Trust Wallet to trade for DOBO on PancakeSwap</p>
+  <p>5. Either buy BNB on Trust Wallet with a credit card or buy it on another exchange like Crypto.com and send it to your Trust Wallet.</p>
+  <p>6. Once the BNB is in your Trust Wallet make sure its BNB Smart Chain. If its regular BNB then click on DEX within Trust Wallet to swap your regular BNB for BNB Smart Chain. The symbol for regular BNB is gold and white while the symbol for BNB Smart Chain is gold and black. If you open up PancakeSwap while only holding regular BNB you will not be able to use it to buy DOBO.</p>
+  <p>7. Once you have your BNB Smart Chain open up PancakeSwap</p>
+  <p>8. Have the "From" section be set to BNB. In the, "To" section click on, "Select a currency" and in the search bar put in this contract number: 0xae2df9f730c54400934c06a17462c41c08a06ed8</p>
+  <p>9. Once you've put it in click the button that looks like a gear in the top right corner. Go down to slippage tolerance and type, "11"</p>
+  <p>10. Exit out of the settings and enter the amount of BNB you want to swap for DOBO. You can only buy 5,000,000,000,000 DOBO per transaction. If you try to buy more at once it wont work</p>
+  <p>11. Click on, "Swap" and then click, "Confirm Swap" and then click, "Approve". If this doesn't work or you get an error try rounding the amount of BNB you wanted to trade for DOBO to a whole number. For example, if you tried to trade 11.45653 BNB for DOBO and got an error, then change the amount of BNB to 11. If this still doesn't work then try increasing the slippage by 1% until it works.</p>
+            </quote>
+          </details>
+        </div>
+        <div>
+          <details>
+            <summary style="padding-top: 1rem">Charts</summary>
+            <div><div class="nomics-ticker-widget" data-name="DogeBonk" data-base="DOBO" data-quote="USD"></div><script src="https://widget.nomics.com/embed.js"></script></div>
+            <div><a class="link" href="//www.dextools.io/app/bsc/pair-explorer/0xbe80839a3be4d3953d5588a60a11aeaed286b593">DexTools</a></div>
+            <div><a class="link" href="https://poocoin.app/tokens/0xae2df9f730c54400934c06a17462c41c08a06ed8">Poocoin</a></div>
+          </details>
+        </div>
       </div>
-      <div><a class="link"
-          href="https://discord.gg/BBMrrBGCxP" target="_blank" rel="nofollow">Discord</a>
-      </div>
+      <div class="text-xs"><small>© 2021 <a class="link" href="//bonkchain.com">Bonkchain.com</a></small></div>
     </div>
-    <!--div><div class="nomics-ticker-widget" data-name="DogeBonk" data-base="DOBO" data-quote="USD"></div><script src="https://widget.nomics.com/embed.js"></script></div-->
   </div>
 </body>
 
